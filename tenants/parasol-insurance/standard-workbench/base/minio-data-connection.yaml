@@ -2,6 +2,7 @@ kind: Secret
 apiVersion: v1
 metadata:
   name: minio-data-connection
+  namespace: parasol-insurance
   labels:
     opendatahub.io/dashboard: 'true'
     opendatahub.io/managed: 'true'

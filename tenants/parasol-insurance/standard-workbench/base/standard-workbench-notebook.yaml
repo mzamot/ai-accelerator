@@ -69,8 +69,6 @@ spec:
               name: shm
             - mountPath: /etc/oauth/config
               name: oauth-config
-            - mountPath: /etc/tls/private
-              name: tls-certificates
           workingDir: /opt/app-root/src
           envFrom:
             - secretRef:

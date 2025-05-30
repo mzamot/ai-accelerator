@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: parasol-insurance
+
+resources:
+  - model-retrain-imagestream.yaml
+  - model-retrain-pipeline.yaml
+  - model-retrain-pipelinerun.yaml
+  - execute-kfp-task.yaml

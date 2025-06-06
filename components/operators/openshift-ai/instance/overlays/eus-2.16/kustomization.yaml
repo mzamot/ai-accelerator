@@ -17,3 +17,4 @@ components:
   - ../../components/model-server-pod-sizes
   - ../../components/rhoai-dashboard-access
   - ../../components/auth-with-authorino
+  - ../../components/components-distributed-compute
